@@ -1,0 +1,27 @@
+{
+  "name": "To Do list",
+  "description": "Simple to do list for productivity.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "/src/worker.js"
+  },
+  "action": {
+    "default_popup": "/src/to-do-list.html",
+    "default_icon": {
+      "16": "/img/16.png",
+      "32": "/img/32.png",
+      "48": "/img/48.png",
+      "128": "/img/128.png"
+    }
+  },
+  "icons": {
+    "16": "/img/16.png",
+    "32": "/img/32.png",
+    "48": "/img/48.png",
+    "128": "/img/128.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
